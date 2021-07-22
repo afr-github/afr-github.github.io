@@ -1,13 +1,26 @@
 /*
 
 */
-body{
+html, body{
+    width: auto;
+    height: 100%;
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
+html{
+    padding: 33px;
+}
 
-#AboutMe{
-    background-color: pink;
+body{
+    background-color: #000080;
+}
+
+#MenuLanguajeSelection{
+    display: flex;
+    place-content: center;
+}
+
+#EnglishCard,#SpainshCard{
+    padding-left: 30px;
 }
