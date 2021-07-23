@@ -17,10 +17,19 @@ body{
 }
 
 #MenuLanguajeSelection{
-    display: flex;
-    place-content: center;
+    height: 100%;
+    width: auto;
 }
 
-#EnglishCard,#SpainshCard{
-    padding-left: 30px;
+#MenuLanguajeSelectionContainer{
+    height: 400px;
+}
+
+#SpainshCard{
+    margin-left: 100px;
+    padding:3px;
+}
+
+#SpainshCard img{
+    padding: 55px 0px;
 }

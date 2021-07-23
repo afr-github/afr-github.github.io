@@ -9,14 +9,49 @@
     -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="index.css" rel="stylesheet"crossorigin="anonymous">
-    <title>Adrian Figueroa Rodriguez</title>
+    <title>Menu</title>
 </head>
 <body class="container-fluid">
-    <style>
-        h1{
-            color:white;
-        }
-    </style>
-    <h1 class="text-center">Bajo mantenimiento</h5>
+    <!-- 
+        Bootrstrap Popovers
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <!--
+        1. 2 buttons to select languaje of protafolio
+        2. Dif. design for each one (+)
+    -->
+    <!-- Card group-->
+    <div class= "d-flex justify-content-center align-self-center"id="MenuLanguajeSelection"> 
+        <div class="d-flex justify-content-center align-self-center " id="MenuLanguajeSelectionContainer">
+            <!-- English card -->
+            <div class="card text-center" style="width: 18rem;" id="EnglishCard">
+                <div id="EnglishCard_imageContainer">
+                    <img src="Images/usa-flag-icon-png.jpg" class="card-img-top" alt="USA flag">
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">English</h5>
+                <a href="/Home/homepageEN.html" class="btn btn btn-outline-primary">Continue</a>
+                </div>
+            </div>
+
+            <!-- Spanish card -->
+            <div class="card text-center" style="width: 18rem;" id="SpainshCard">
+                <img src="Images/mxn-flag-icon-png.png" class="card-img-top" alt="MXN flag">
+                <div class="card-body">
+                <h5 class="card-title">Español</h5>
+                <a href="/Home/homepageES.html" class="btn btn btn-outline-success">Continuar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Card group -->
+
+
+
+
+
+
+
+
 </body>
 </html>
