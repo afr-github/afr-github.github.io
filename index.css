@@ -1,5 +1,5 @@
 /*
-
+    index.html
 */
 html, body{
     width: auto;
@@ -10,19 +10,26 @@ html, body{
 
 html{
     padding: 33px;
+    min-height: 516px;
+    min-width: 746px
 }
 
 body{
     background-color: #000080;
+    min-height: 450px;
+    min-width: 680px
 }
 
 #MenuLanguajeSelection{
+    min-height: 450px;
     height: 100%;
     width: auto;
 }
 
 #MenuLanguajeSelectionContainer{
     height: 400px;
+    min-height: 400px;
+    min-width: 680px
 }
 
 #SpainshCard{
